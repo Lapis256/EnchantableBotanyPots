@@ -1,0 +1,45 @@
+[versions]
+plugin_kotlin = "1.8.21"
+plugin_mixin = "0.7.+"
+plugin_forge = "6.0.+"
+plugin_parchmentmc = "1.+"
+
+
+minecraft = "1.18.2"
+minecraftForge = "1.18.2-40.2.0"
+kotlinForForge = "3.12.0"
+forge = "40.2.3"
+parchmentmc = "2022.11.06"
+mixin = "0.8.5"
+mixinExtras = "0.3.5"
+
+jei = "10.2.1.1005"
+jade = "5079263"
+theoneprobe = "3965688"
+bookshelf = "13.3.56"
+botanypots = "8.1.32"
+botanypotstiers = "4394900"
+
+
+[libraries]
+minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
+minecraftForge = { module = "net.minecraftforge:forge", version.ref = "minecraftForge" }
+kotlinForForge = { module = "thedarkcolour:kotlinforforge", version.ref = "kotlinForForge" }
+mixin = { module = "org.spongepowered:mixin", version.ref = "mixin" }
+mixinExtrasCommon = { module = "io.github.llamalad7:mixinextras-common", version.ref = "mixinExtras" }
+mixinExtrasForge = { module = "io.github.llamalad7:mixinextras-forge", version.ref = "mixinExtras" }
+
+jei = { module = "mezz.jei:jei-1.18.2-forge", version.ref = "jei" }
+jade = { module = "curse.maven:jade-324717", version.ref = "jade" }
+theoneprobe = { module = "curse.maven:theoneprobe-245211", version.ref = "theoneprobe" }
+bookshelf = { module = "net.darkhax.bookshelf:Bookshelf-Forge-1.18.2", version.ref = "bookshelf" }
+botanypots = { module = "net.darkhax.botanypots:BotanyPots-Forge-1.18.2", version.ref = "botanypots" }
+botanypotstiers = { module = "curse.maven:BotanyPotsTiers-526754", version.ref = "botanypotstiers" }
+
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "plugin_kotlin" }
+kotlinSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "plugin_kotlin" }
+mixin = { id = "org.spongepowered.mixin", version.ref = "plugin_mixin" }
+forge = { id = "net.minecraftforge.gradle", version.ref = "plugin_forge" }
+parchmentmc = { id = "org.parchmentmc.librarian.forgegradle", version.ref = "plugin_parchmentmc" }

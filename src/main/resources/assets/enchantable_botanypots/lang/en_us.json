@@ -1,0 +1,6 @@
+{
+    "upgrade.mekanism_overpowered.fluid_tank": "Fluid Tank",
+    "upgrade.mekanism_overpowered.fluid_tank.description": "Increases fluid tank capacity.",
+    "upgrade.mekanism_overpowered.gas_tank": "Gas Tank",
+    "upgrade.mekanism_overpowered.gas_tank.description": "Increases gas tank capacity."
+}
